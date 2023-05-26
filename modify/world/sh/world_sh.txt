@@ -1,0 +1,54 @@
+[FIND]X-
+[ADDAFTER]Friend,
+[MERGE]
+CONDITIONAL LINKS
+//shaded side
+Friend : SH_B12 : SH_E03 : SH_E03RIV
+Friend : SH_E03 : SH_B12 : DISCONNECTED
+Friend : SH_E03RIV : 1 : SH_B12
+//gate side
+Friend : SH_D03 : SH_H01 : SH_H01RIV
+Friend : SH_H01 : SH_D03 : DISCONNECTED
+Friend : SH_H01RIV : 1 : SH_D03
+//Only show on saint
+Friend : EXCLUSIVEROOM : SH_E03RIV
+Friend : EXCLUSIVEROOM : SH_E01RIV
+Friend : EXCLUSIVEROOM : SH_E04RIV
+Friend : EXCLUSIVEROOM : SH_H01RIV
+//Hidden on saint
+Friend : HIDEROOM : SH_E03
+Friend : HIDEROOM : SH_E01
+Friend : HIDEROOM : SH_E04
+Friend : HIDEROOM : SH_H01
+END CONDITIONAL LINKS
+CREATURES
+(Friend)SH_A14 : 3-Lantern Mouse-2
+(Friend)SH_C03 : 4-Spider-10, 5-SnowSpider, 7-Spider-20
+(Friend)SH_C01 : 4-Lantern Mouse-2, 5-Lantern Mouse-2, 6-SpitterSpider-{Winter}, 6-Tentacle Plant-{PreCycle}
+(Friend)SH_B07 : 3-Spider-15, 2-BigSpider-{Winter}, 4-Spider-5
+(Friend)SH_A09 : 4-Lantern Mouse, 5-SnowSpider-2
+(Friend)SH_D01 : 3-YoungLizard-3
+(Friend)SH_B08 : 2-BigSpider-{Winter}, 2-BigSpider-{Winter}, 2-BigSpider-{Winter}
+(Friend)SH_B05 : 7-SpitterSpider-{Winter}, 7-SnowSpider
+
+(Friend)SH_C03 : 7-SnowSpider
+(Friend)SH_C05 : 4-SpitterSpider-{Winter}
+(Friend)SH_C03 : 4-BigSpider-{Winter}
+(Friend)SH_C01 : 3-SpitterSpider-{Winter}
+(Friend)SH_C12 : 2-BigSpider-{Winter}
+(Friend)SH_A12 : 4-BigSpider-{Winter}
+
+(Friend)SH_HELPOUT : 3-Spider-15
+(Friend)SH_H01RIV : 4-Small Centipede-3, 4-Centipede-{0.5}
+(Friend)SH_E03RIV : 4-Bro
+(Friend)SH_E04RIV : 2-Bro
+
+(Friend)OFFSCREEN : 0-MirosVulture-1, 0-Scavenger-7
+
+(Friend)LINEAGE : SH_A11 : 4 : NONE-0.05, SnowSpider-0.4, Black-0
+(Friend)LINEAGE : SH_C08 : 2 : Black-0.2, SnowSpider-0.5, Red-0
+(Friend)LINEAGE : SH_B08 : 2 : SnowSpider-0.3, NONE-0
+(Friend)LINEAGE : SH_D01 : 3 : MotherLizard-1, NONE-0
+(Friend)LINEAGE : SH_B04 : 5 : EggBug-0.5, NONE-0
+END CREATURES
+[ENDMERGE]
