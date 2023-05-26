@@ -1,0 +1,9 @@
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\bin\Debug\net48\SlugTemplate.dll
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\bin\Debug\net48\SlugTemplate.pdb
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\obj\Debug\net48\SlugTemplate.csproj.AssemblyReference.cache
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\obj\Debug\net48\SlugTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\obj\Debug\net48\SlugTemplate.AssemblyInfoInputs.cache
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\obj\Debug\net48\SlugTemplate.AssemblyInfo.cs
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\obj\Debug\net48\SlugTemplate.csproj.CoreCompileInputs.cache
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\obj\Debug\net48\SlugTemplate.dll
+C:\Users\liahm\Downloads\SlugTemplate-master (1)\SlugTemplate\src\obj\Debug\net48\SlugTemplate.pdb
